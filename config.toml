@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Martins Website'
 theme = "LoveIt"
 
-googleAnalytics = "G-H2S04476CH"
+#googleAnalytics = "G-H2S04476CH"
 
 [params]
     title = "Martins Website"
@@ -21,3 +21,10 @@ googleAnalytics = "G-H2S04476CH"
     
     [params.social]
         Linkedin = "mvanleussen"
+    [params.analytics]
+        enable = true
+        # Google Analytics
+        [params.analytics.google]
+            id = "G-H2S04476CH"
+            # whether to anonymize IP
+            anonymizeIP = true
