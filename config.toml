@@ -3,8 +3,10 @@ languageCode = 'en-us'
 title = 'Martins Website'
 theme = "LoveIt"
 
+googleAnalytics = "G-H2S04476CH"
 
 [params]
+    title = "Martins Website"
     [params.header]
         [params.header.title]
             name = "Martin's Website"
