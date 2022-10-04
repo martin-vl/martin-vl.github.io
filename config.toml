@@ -1,4 +1,21 @@
 baseURL = 'https://martin-vl.github.io/'
 languageCode = 'en-us'
-title = 'Martin'
-theme = "https://github.com/dillonzq/LoveIt.git"
+title = 'Martins Website'
+theme = "LoveIt"
+
+
+[params]
+    [params.header]
+        [params.header.title]
+            name = "Martin's Website"
+    [params.home]
+        [params.home.profile]
+            enable = true
+            title = ""
+            subtitle = "Martin van Leussen"
+            avatarurl = "/Emoji.png"
+        [params.home.posts]
+            enable = "false"
+    
+    [params.social]
+        Linkedin = "https://www.linkedin.com/in/mvanleussen/"
